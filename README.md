@@ -1,30 +1,30 @@
 # ClockJava
 
-Reloj de escritorio en **Java Swing**. Muestra la hora, el día de la semana y la fecha, y los refresca mientras la ventana está abierta.
+A desktop clock in **Java Swing**. It shows the time, the day of the week, and the date, and refreshes them while the window is open.
 
-## Qué hace
+## What it does
 
-- Hora en formato de 12 horas (`hh:mm:ss a`).
-- Día de la semana y fecha (`MM/dd/yyyy`).
-- Ventana fija de 350×200, fondo negro y hora en verde.
+- Time in 12-hour format (`hh:mm:ss a`).
+- Day of the week and date (`MM/dd/yyyy`).
+- Fixed 350×200 window, black background, and green time text.
 
 ## Stack
 
 - Java
 - Swing (`JFrame`, `JLabel`)
-- `Calendar` y `SimpleDateFormat`
-- Proyecto NetBeans (`build.xml`, `nbproject`)
+- `Calendar` and `SimpleDateFormat`
+- NetBeans project (`build.xml`, `nbproject`)
 
-## Estructura
+## Layout
 
 ```
-src/Main.java      # punto de entrada
-src/MyFrame.java   # ventana y etiquetas del reloj
+src/Main.java      # entry point
+src/MyFrame.java   # window and clock labels
 ```
 
-## Cómo ejecutarlo
+## How to run
 
-Abre el proyecto en NetBeans y ejecuta `Main`.
+Open the project in NetBeans and run `Main`.
 
 ```bash
 javac -d out src/Main.java src/MyFrame.java
